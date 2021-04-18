@@ -16,7 +16,7 @@ admin panel ruu login hiij orohod
 
 #Baaz uusgeh
 CREATE DATABASE IF NOT EXISTS `nodelogin` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `accounts`;
+USE `nodelogin`;
 
 CREATE TABLE IF NOT EXISTS `students` (
   `id` int(11) NOT NULL,
